@@ -22,5 +22,3 @@ input("Exter your value here : ")
 VariableName = input("Input your number here : ")
 
 print("Your number is : ", VariableName) # A comma is used to print together two or more strings,integers, etc.
-
-# This module Ends Here

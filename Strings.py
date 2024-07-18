@@ -23,28 +23,66 @@ print(triple_quote_string)
 #    For example, "She said, 'Hello!'" or 'He said, "Hello!"' or "He said, \"Hello!\""
 
 # 3. Strings are immutable, which means you cannot change individual characters after the string is created.
-#    However, you can create new strings based on existing ones.
+# However, you can create new strings based on existing ones.
 
 # Example of escaping quotes:
 escaped_string = 'He said, "It\'s a beautiful day!"'
 # Strings are commonly used for displaying messages, handling text input/output, and processing textual data.
 
+# function : A function is a block of code which is used to perform some predefined or defined task
+# Ex: print() is a function to print the given content on the console
+# Types of functions:
+# 1. Pre-defined functions : print(), input() etc. which are already written for us to use
+# 2. User-defined functions : These are the functions which are defined by the user, meaning that their name and the task they perform is also set by the user itself.
 
-st = "---Aman is a good boi---"
-print(len(st)) # Prints the length of string.
+# Note : In depth study of functions will be done in later modules
 
-print(st[::])
 
-print("st.lower()--> ",st.lower())
+#Indexing: It means, numbering of the characters of a string. It is done in the following way:
+st = "This is a sample string"
+print(st[0]) # prints T
+print(st[1]) # prints h
+# print(st[22]) # prints g
+# This is called the Forward/Positive indexing
 
-print("st.upper()--> ",st.upper())
 
-print("st.count()--> ",st.count("a"))
+print(st[-1]) # prints g which is the last character of this string
+print(st[-2]) # prints e
+print(st[-22]) # prints T
+# This is called the Backward/Negative indexing
 
-print("st.find()--> ",st.find("b"))
+# Note : Forward indexing starts from 0 but the Backward indexing starts from -1
+# Note : If we try to access a character which is not present in the string, it will
+# throw an error called "IndexError: string index out of range"
 
-print("st.strip()--> ",st.strip("-"))
 
-print("st.lstrip()--> ",st.lstrip("-"))
+# Following are some pre-defined functions which can be used on strings:
 
-print("st.rstrip()--> ",st.rstrip("-"))
+str = "----This is another sample string----"
+
+# 1. len() : This function returns the length of the string
+print(len(str))  # Prints the length of the string.
+
+# Slicing: prints the string according to the starting, ending, and the jump specified.
+print(str[3:10:2])  # Prints characters from index 3 to 9 with a step of 2.
+
+# Converts all characters in the string to lowercase.
+print("str.lower()--> ", str.lower())
+
+# Converts all characters in the string to uppercase.
+print("str.upper()--> ", str.upper())
+
+# Counts the number of occurrences of the substring "a" in the string.
+print("str.count()--> ", str.count("a"))
+
+# Finds the index of the first occurrence of the substring "b". Returns -1 if not found.
+print("str.find()--> ", str.find("b"))
+
+# Removes leading and trailing characters specified (in this case, "-").
+print("str.strip()--> ", str.strip("-"))
+
+# Removes leading characters specified (in this case, "-").
+print("str.lstrip()--> ", str.lstrip("-"))
+
+# Removes trailing characters specified (in this case, "-").
+print("str.rstrip()--> ", str.rstrip("-"))
