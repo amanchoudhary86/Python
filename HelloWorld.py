@@ -3,6 +3,11 @@
 
 # To diplay output on the console:
 print("Hello World")
+# OR
+print('''Hello World''')
+# OR
+print('Hello World')
+# All of these are valid
 
 # To take an input on the console:
 input("Exter your value here : ")
