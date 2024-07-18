@@ -4,10 +4,10 @@
 
 ls = ["Python",1,2,3,True,2.5]
 lst = ls # Some functions perform same kind of task that is why an another list of name 'lst' with the same elements has been added
-print(ls)
+print("ls = ",ls)
 
 # Just like Strings lists also have the concept of indexing for the elements it contais:
-print(ls[0:5:2])
+print('print(ls[0:5:2])',ls[0:5:2])
 
 # To change an element:
 ls[0] = "Programming"
