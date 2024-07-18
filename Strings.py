@@ -66,52 +66,52 @@ print("str.len()--> ",len(str))  # Prints the length of the string.
 print(str[3:10:2])  # Prints characters from index 3 to 9 with a step of 2.
 
 # Converts all characters in the string to lowercase.
-print("str.lower()--> ", str.lower()) 
+print("str.lower()--> ", str.lower())
 
 # Converts all characters in the string to uppercase.
-print("str.upper()--> ", str.upper()) 
+print("str.upper()--> ", str.upper())
 
 # Counts the number of occurrences of the substring "a" in the string.
-print("str.count()--> ", str.count("a")) 
+print("str.count()--> ", str.count("a"))
 
 # Finds the index of the first occurrence of the substring "b". Returns -1 if not found.
-print("str.find()--> ", str.find("b")) 
+print("str.find()--> ", str.find("b"))
 
 # Removes leading and trailing characters specified (in this case, "-").
-print("str.strip()--> ", str.strip("-")) 
+print("str.strip()--> ", str.strip("-"))
 
 # Removes leading characters specified (in this case, "-").
-print("str.lstrip()--> ", str.lstrip("-")) 
+print("str.lstrip()--> ", str.lstrip("-"))
 
 # Removes trailing characters specified (in this case, "-").
-print("str.rstrip()--> ", str.rstrip("-")) 
+print("str.rstrip()--> ", str.rstrip("-"))
 
 # Checks if the string starts with the specified substring.
-print("str.startswith()--> ", str.startswith("----")) 
+print("str.startswith()--> ", str.startswith("----"))
 
 # Checks if the string ends with the specified substring.
-print("str.endswith()--> ", str.endswith("----")) 
+print("str.endswith()--> ", str.endswith("----"))
 
 # Replaces occurrences of the first substring with the second substring.
-print("str.replace()--> ", str.replace("another", "a different")) 
+print("str.replace()--> ", str.replace("another", "a different"))
 
 # Splits the string into a list of substrings based on the specified delimiter.
-print("str.split()--> ", str.split(" ")) 
+print("str.split()--> ", str.split(" "))
 
 # Checks if all characters in the string are digits.
-print("str.isdigit()--> ", str.isdigit()) 
+print("str.isdigit()--> ", str.isdigit())
 
 # Checks if all characters in the string are alphanumeric (letters or numbers).
-print("str.isalnum()--> ", str.isalnum()) 
+print("str.isalnum()--> ", str.isalnum())
 
 # Checks if all characters in the string are alphabetic (letters only).
-print("str.isalpha()--> ", str.isalpha()) 
+print("str.isalpha()--> ", str.isalpha())
 
 # Centers the string in a field of the specified width, padding with the specified character.
-print("str.center(20, '*')--> ", str.center(20, "*")) 
+print("str.center(20, '*')--> ", str.center(20, "*"))
 
 # Left justifies the string in a field of the specified width, padding with the specified character.
-print("str.ljust(20, '*')--> ", str.ljust(20, "*")) 
+print("str.ljust(20, '*')--> ", str.ljust(20, "*"))
 
 # Right justifies the string in a field of the specified width, padding with the specified character.
-print("str.rjust(20, '*')--> ", str.rjust(20, "*")) 
+print("str.rjust(20, '*')--> ", str.rjust(20, "*"))
