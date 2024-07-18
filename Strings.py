@@ -63,7 +63,8 @@ str = "----This is another sample string----"
 print("str.len()--> ",len(str))  # Prints the length of the string.
 
 # Slicing: prints the string according to the starting, ending, and the jump specified.
-print(str[3:10:2])  # Prints characters from index 3 to 9 with a step of 2.
+print(str[4:15:2])  # Prints characters from index 4 to 15 with a step of 2.
+# print(str[starting point: ending point : Jump]) <-- Not an actual code, just for reference
 
 # Converts all characters in the string to lowercase.
 print("str.lower()--> ", str.lower())
@@ -96,7 +97,8 @@ print("str.endswith()--> ", str.endswith("----"))
 print("str.replace()--> ", str.replace("another", "a different"))
 
 # Splits the string into a list of substrings based on the specified delimiter.
-print("str.split()--> ", str.split(" "))
+A,B,C,D,E = str.split()
+print(A,"\n",B,"\n",C,"\n",D,"\n",E) # Prints the substrings in the list.
 
 # Checks if all characters in the string are digits.
 print("str.isdigit()--> ", str.isdigit())
