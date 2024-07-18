@@ -35,16 +35,16 @@ print(len(st)) # Prints the length of string.
 
 print(st[::])
 
-print("st.lower()-->",st.lower())
+print("st.lower()--> ",st.lower())
 
-print("st.upper()-->",st.upper())
+print("st.upper()--> ",st.upper())
 
-print("st.count()-->",st.count("a"))
+print("st.count()--> ",st.count("a"))
 
-print("st.find()-->",st.find("b"))
+print("st.find()--> ",st.find("b"))
 
-print("st.strip()-->",st.strip("-"))
+print("st.strip()--> ",st.strip("-"))
 
-print("st.lstrip()-->",st.lstrip("-"))
+print("st.lstrip()--> ",st.lstrip("-"))
 
-print("st.rstrip()-->",st.rstrip("-"))
+print("st.rstrip()--> ",st.rstrip("-"))
