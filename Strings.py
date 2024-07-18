@@ -118,3 +118,5 @@ print("str.ljust(45, '*')--> ", str.ljust(45, "*"))
 
 # Right justifies the string in a field of the specified width, padding with the specified character.
 print("str.rjust(45, '*')--> ", str.rjust(45, "*"))
+
+# Next variable or data type that we are going to study is called 'Boolean'
