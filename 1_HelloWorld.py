@@ -9,6 +9,19 @@ print('''Hello World''')
 print('Hello World')
 # All of these are valid
 
+# More than one strings or different values can be printed with the help of a comma ',' :
+print("Python", "is", "Awesome")
+
+# To terminate a string(to simply change the line in the output, to be specific):
+
+# 1) Using \n :
+print("Hello\nWorld")
+# Note : '\n' is also newline character
+
+# 2) Using just another print statement:
+print("Hello3")
+print("World3")
+
 # To take an input on the console:
 input("Exter your value here : ")
 
@@ -25,5 +38,5 @@ input("Exter your value here : ")
 
 # Creating a variable which takes input and then displays it to the console:
 VariableName = input("Input your number here : ")
-
-print("Your number is : ", VariableName) # A comma is used to print together two or more strings,integers, etc.
+# You may use any other name instead of VariableName if you wish
+print("Your number is : ", VariableName)

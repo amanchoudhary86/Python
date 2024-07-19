@@ -11,4 +11,18 @@
 
 # 4)Indexed: You access the values in a dictionary using their keys, similar to looking up a word in a dictionary to find its meaning.
 
-# This is the latest change
+# Note: Every key should be unique.
+
+dictionary = {'A':5, 'B':6, 'C':7}
+print(dictionary['A']) # Output: 5
+
+print(dictionary)
+
+# To add an element
+dictionary['D'] = 8
+
+print("dictionary['D'] = 8 --> ",dictionary)
+
+# To Change an element:
+dictionary['D'] = 10
+print("dictionary['D'] = 10 --> ",dictionary)
