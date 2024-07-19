@@ -16,3 +16,12 @@ print('print(tpl.count("String2")) --> ',tpl.count("String2"))
 # Note: a Tuple can also be create without the use of paranthesis '()'
 # Example:
 tpl2 = 1,2,3,"String1", "String2","String3",1
+
+# Tuple Unpacking:
+# Tuple unpacking is a feature in Python that allows us to assign the values of a tuple to multiple variables in a single line of code. It's a way to extract the elements of a tuple and assign them to separate variables.
+
+tpl2 = 1,2,3,4
+
+a,b,c,d = tpl2
+
+print(c)
