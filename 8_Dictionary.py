@@ -27,3 +27,9 @@ print("dictionary['D'] = 8 --> ",dictionary)
 dictionary['D'] = 10
 print("dictionary['D'] = 10 --> ",dictionary)
 
+# To remove an element:
+dictionary.pop('D')
+print("dictionary.pop('D') --> ",dictionary)
+
+# To print the keys:
+print("Keys: ",dictionary.keys())

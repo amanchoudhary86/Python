@@ -127,7 +127,6 @@ print("str.center(45, '*')--> ", str.center(45, "*"))
 # Total characters to be printed = 45 - 37 = 8 --> 4 on left and 4 on right (because it is str.center())
 # same thing is also done for the following two functions with some slight change in the position of stars --> (*)
 
-
 # Left justifies the string in a field of the specified width, padding with the specified character.
 print("str.ljust(45, '*')--> ", str.ljust(45, "*"))
 
