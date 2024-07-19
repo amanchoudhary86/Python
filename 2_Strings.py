@@ -7,7 +7,7 @@
 single_quote_string = 'Hello, world!'
 double_quote_string = "Hello, world!"
 triple_quote_string = """This is a string
-that spans multiple lines."""
+that is in multiple lines."""
 
 print(single_quote_string)
 print(double_quote_string)
@@ -37,12 +37,19 @@ escaped_string = 'He said, "It\'s a beautiful day!"'
 
 # Note : In depth study of functions will be done in later modules
 
+# 'end' in print() functions:
+
+# Simply put it specifies what the string ends with:
+
+print("An example of end", end=" in print function")
+
 
 #Indexing: It means, numbering of the characters of a string. It is done in the following way:
+
 st = "This is a sample string"
-print(st[0]) # prints T
+print(st[0]) # prints T which is the First character of this string
 print(st[1]) # prints h
-# print(st[22]) # prints g
+print(st[22]) # prints g
 # This is called the Forward/Positive indexing
 
 
@@ -53,7 +60,7 @@ print(st[-22]) # prints T
 
 # Note : Forward indexing starts from 0 but the Backward indexing starts from -1
 # Note : If we try to access a character which is not present in the string, it will
-# throw an error called "IndexError: string index out of range"
+# throw an error called "IndexError"
 
 
 # Following are some pre-defined functions which can be used on strings:
