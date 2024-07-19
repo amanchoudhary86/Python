@@ -20,7 +20,7 @@ tpl2 = 1,2,3,"String1", "String2","String3",1
 # Tuple Unpacking:
 # Tuple unpacking is a feature in Python that allows us to assign the values of a tuple to multiple variables in a single line of code. It's a way to extract the elements of a tuple and assign them to separate variables.
 
-tpl2 = 1,2,3,4
+tpl2 = 1,2,3,4 #This is created without the use of paranthesis () for the ease of understanding. Enclosing the elements in paranthesis is totally up to you.
 
 a,b,c,d = tpl2
 
