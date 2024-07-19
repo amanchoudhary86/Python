@@ -25,8 +25,10 @@ print(triple_quote_string)
 # 3. Strings are immutable, which means you cannot change individual characters after the string is created.
 # However, you can create new strings based on existing ones.
 
-# Example of escaping quotes:
+# Example of escaping quotes --> \' OR \" :
 escaped_string = 'He said, "It\'s a beautiful day!"'
+print(escaped_string)
+
 # Strings are commonly used for displaying messages, handling text input/output, and processing textual data.
 
 # function : A function is a block of code which is used to perform some predefined or defined task
@@ -41,7 +43,7 @@ escaped_string = 'He said, "It\'s a beautiful day!"'
 
 # Simply put it specifies what the string ends with:
 
-print("An example of end", end=" in print function")
+print("An example of end", end=" in print function\n")
 
 
 #Indexing: It means, numbering of the characters of a string. It is done in the following way:
@@ -54,8 +56,8 @@ print(st[22]) # prints g
 
 
 print(st[-1]) # prints g which is the last character of this string
-print(st[-2]) # prints e
-print(st[-22]) # prints T
+print(st[-2]) # prints n
+print(st[-21]) # prints h
 # This is called the Backward/Negative indexing
 
 # Note : Forward indexing starts from 0 but the Backward indexing starts from -1
@@ -119,6 +121,12 @@ print("str.isalpha()--> ", str.isalpha())
 
 # Centers the string in a field of the specified width, padding with the specified character.
 print("str.center(45, '*')--> ", str.center(45, "*"))
+# Simple calculation:
+# Total characters in the string = 37
+# Total characters in the field = 45
+# Total characters to be printed = 45 - 37 = 8 --> 4 on left and 4 on right (because it is str.center())
+# same thing is also done for the following two functions with some slight change in the position of stars --> (*)
+
 
 # Left justifies the string in a field of the specified width, padding with the specified character.
 print("str.ljust(45, '*')--> ", str.ljust(45, "*"))
