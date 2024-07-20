@@ -67,3 +67,55 @@ elif age == 18:
     print("Congratulations for your 18th birthday this year. Now you are allowed to drive.")
 else:
     print("You are still too young to drive. Ask your parents to drop you.")
+
+
+# Use of 'pass' keyword in conditional statements :- 
+
+if age < 18:
+    # If we keep this block of code empty then it throws an error, that is why here we use the 'pass' keyword. The pass keyword does nothing but only hold the place for future development. 
+    pass
+
+# Nested if-else :-
+# Nested if-else statements are used to check multiple conditions within conditions.
+
+# Example:
+# Check if a number is positive, negative or zero.
+# If the number is positive then check if it is even or odd.
+# If the number is negative then check if it is even or odd.
+# If the number is zero then print "Zero"
+# Note: The number can be positive, negative or zero. So, we have to check all the conditions.
+
+# Check if a number is positive, negative, or zero
+
+# Ask the user to enter a number
+number = input("Enter a number: ")
+
+# Convert the input to an integer
+number = int(number)
+
+# Check if the number is positive, negative, or zero using nested if-else
+if number > 0:
+    # Number is positive
+    if number % 2 == 0: # This checks if the no. is completely divisible by two or not because if a number is completely divisible by two then it will give the remainder 0 which will mean that it is even.
+        # Nested if to check if the number is even
+        print("The number is positive and even.")
+    else:
+        # Nested else for when the number is odd
+        print("The number is positive and odd.")
+else:
+    if number < 0:
+        # Number is negative
+        if number % 2 == 0:
+            # Nested if to check if the number is even
+            print("The number is negative and even.")
+        else:
+            # Nested else for when the number is odd
+            print("The number is negative and odd.")
+    else:
+        # Number is zero
+        print("The number is zero.")
+
+
+# In the example above you can see that multiple if else are inside multiple if-else to further branch our decision. This consept is known nested if-else 
+
+# This module ends here, next modlule which we will learn is called 'loops'
