@@ -1,3 +1,5 @@
+# Operators:-
+
 # operators are special symbols used to perform operations on variables and values. They can be used to perform arithmetic, comparison, logical, assignment, and other operations.
 
 # Types of operators:-
@@ -33,7 +35,7 @@
 # 15. Logical OR: `or`
 # 16. Conditional Expressions: `x if condition else y`
 # 17. Assignment: `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`, `&=`, `|=`, `^=`, `>>=`, `<<=`
-# 18. Assignment Expression: `:=` (Walrus Operator)
+# 18. Assignment Expression: `:=` (also known as Walrus Operator)
 
 # Note : Some of the operators which are on the same priority and in that case the left-most one will be executed first and so on from left to right.
 
@@ -42,3 +44,40 @@
 
 # Need not mug up all of this, we will learn each of these thoroughly and in the most lame and lamen language, for now we will be learning the most basic of these operators
 
+# Arithmetic operators:-
+a = 11
+b = 5
+print("a", a)
+print("b", b)
+
+# Addition:-
+print("a + b = ", a + b )
+
+# Subtraction:-
+print("a - b = ", a - b )
+
+# Multiplication:-
+print("a * b = ", a * b )
+
+# Division:-
+print("a / b = ", a / b )
+# Note: The result of division is always a float value(In decimal)
+
+# Floor Division:-
+print("a // b = ", a // b )
+# Note: The result of floor division is always an integer value(In whole number)
+# Simply put it is just the simple division as above but it only removes the decimal and the values after that
+
+# Example:-
+# 11 / 5 = 2.2
+# 11 // 5 = 2
+
+# Modulus:- 
+# It simply returns the remainder
+print("a % b = ", a % b )
+# Example:
+# 11 divided by 5 gives the remainder 1, so a % b = 11 % 5 = 1 <-- for reference only
+
+# Exponentiation:-
+print("a ** b = ", a ** b )
+# a ** b is simply a to power b 
