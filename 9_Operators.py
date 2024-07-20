@@ -52,4 +52,7 @@
 # 34. Bitwise OR Assignment: `|=`
 # 35. Bitwise Right Shift Assignment: `>>=`
 
-# Note : Some of the operators which are on the same priority and in that case the left-most one will be executed first and so on from left to right. 
+# Note : Some of the operators which are on the same priority and in that case the left-most one will be executed first and so on from left to right.
+
+# Note = Priority order can be changed with the help of paranthesis. 
+# Example : 2 * 2 + ( 2 + 2 ) --> Here ( 2 + 2 ) will be calculated first because of paranthesis
