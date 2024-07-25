@@ -6,13 +6,12 @@
 # If we want to use the functions written in the previous file '12_Functions.py', then we firstly we import that particular module int our file like the following:
 
 import L_functions
+from L_functions import addition
 
 # Now we can use the functions ar any other part of code of that module in our file.
 
 # syntax:
 # imported_filename.function_name()
-
-L_functions.addition(1,5,10)
 
 # on executing this code we get the following output:
 
@@ -26,7 +25,12 @@ L_functions.addition(1,5,10)
 
 # Note: As we imported the file, the whole code was imported here, and that is why we are able to see the output of that file as well, to avoid this and only use the addition() function we use the following method:
 
-from L_functions import addition
 
 print("As you can see below the whole file was not imported, but only the addition() function:-")
 addition(1 , 1 , 1)
+
+# Note : If there is a folder named '__pycache__' which is automatically created then let it be and need not worry about it. For now you just need to know that it is created so that the next time this file runs then it need not import the modules again and again. Once this folder is created, the next time we run this program, you might not notice it but it will run faster.
+
+# This folder stores compiled versions of your Python files, which helps the program run faster the next time you execute it. You don't need to worry about this folder as Python handles it for you. Just know that it's there to make your programs more efficient.
+
+# Pro tip : There are tons of pre-built modules for python which are used by all the programmers. Database connection, folder creation, Digital Art making, making a web app, etc. there is a library(collection of many modules) for almost everything in Python. We will use them one by one in our upcoming programs.
