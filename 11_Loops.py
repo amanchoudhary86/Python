@@ -54,3 +54,31 @@ for x in fruits:
     # apple
     # banana
     # cherry
+
+# Break:- 
+# The break statement is used to exit a loop when a certain condition is met.
+# Example:
+fruits = ['apple', 'banana', 'cherry']
+for x in fruits:
+    print(x)
+    if x == 'banana':
+        break
+# Output:-
+# apple
+# banana
+# The loop will exit when the value of x is 'banana', and the rest of the code
+# in the loop will not be executed.
+
+# Continue:-
+# The continue statement is used to skip the rest of the code inside a loop for the
+# current iteration only. Loop will start again. (In other words, it is used to skip something in a loop)
+
+# Example:
+fruits = ['apple', 'banana', 'cherry']
+for x in fruits:
+    if x == 'banana':
+        continue
+    print(x)
+# Output:-
+# apple
+# cherry
