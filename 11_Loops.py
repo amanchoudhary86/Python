@@ -62,6 +62,7 @@ fruits = ['apple', 'banana', 'cherry']
 for x in fruits:
     print(x)
     if x == 'banana':
+        print("The loop breaks here.")
         break
 # Output:-
 # apple
