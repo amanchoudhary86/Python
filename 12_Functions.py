@@ -1,5 +1,7 @@
 # Functions:-
 
+# Note : From now on we will be using Functions as a part of a normal code. So make sure to understand this module properly, in case a doubt occurs it is recommended to watch a youTube tutorial on 'Functions in python'
+
 # Although we had a slight overview about functions in one of the previous modules, here we are going to deep dive about them.
 
 # Definition:-
