@@ -29,7 +29,7 @@ for i in range(5):
 i = 0
 while i < 5:
     print(i)
-    i += 1
+    i = i+1
 
 # Output:-
 # 0
@@ -38,13 +38,19 @@ while i < 5:
 # 3
 # 4
 
-# i+=1 is the same as i = i + 1 and, it can also be simply written as i--
-# similarily,
-
-# i-=1 is the same as i = i - 1, and it can also be simply written as i--
-
+# i+=1 is the same as i = i + 1
+# i-=1 is the same as i = i - 1
 # i*=2 is the same as i = i * 2
 # i/=2 is the same as i = i / 2
 # i%=2 is the same as i = i % 2
 # i**=2 is the same as i = i ** 2
 # i//=2 is the same as i = i // 2
+
+# Example : print the items in a list:
+fruits = ['apple', 'banana', 'cherry']
+for x in fruits:
+    print(x)
+    # Output:-
+    # apple
+    # banana
+    # cherry
