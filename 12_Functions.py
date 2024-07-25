@@ -41,10 +41,14 @@
 def addition(a,b,c):
     print("The sum of ",a," ", b," " ,c, " is =", a+b+c)
     return 0
+# Here return 0 means that the function will simply execute the code written inside it but will not provide a value, instead of print statement here we could also write it after return like this:
+
+# def addition(a,b,c):
+#     return print("The sum of ",a," ", b," " ,c, " is =", a+b+c)
 
 # Calling the function:
 addition(1,2,3)
 addition(4,5,6)
 addition(7,8,9)
 addition(10,11,12)
-addition(13,14,15)
+addition(13,14,15) #You may call it anywhere now and as many times as you like
