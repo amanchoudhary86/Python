@@ -24,12 +24,10 @@
 # 2. User-defined functions:-
 # Suppose a programmer wants to print the sum of three variables, and wants to use this functionality multiple times in his code. In this case instead of writing the code of addition again and again, he sipmly creates a function to do so.
 
-# Example: Defining a function to add three variables:
-
 # Syntax:
-def function_name():
-    # code to be executed
-    return
+# def function_name():
+     # code to be executed
+#    return
 
 # Firstly we use the 'def keyword to define a function'
 # function_name() is the name of the function which can be anything but it should be unique and
@@ -39,3 +37,14 @@ def function_name():
 # The function can be called by simply writing the function_name() in the code.
 # The function can be called multiple times in the code.
 
+# Example: Defining a function to add three variables:
+def addition(a,b,c):
+    print("The sum of ",a," ", b," " ,c, " is =", a+b+c)
+    return 0
+
+# Calling the function:
+addition(1,2,3)
+addition(4,5,6)
+addition(7,8,9)
+addition(10,11,12)
+addition(13,14,15)
