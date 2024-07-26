@@ -39,7 +39,7 @@ except ValueError:
     # ValueError is the name of the error that may appear.
 
 else:
-    # Code that always runs
+    # Code that runs when except block is not true.
     print("Thank you once again for using the program.")
 
 # 3. Finally Block:
