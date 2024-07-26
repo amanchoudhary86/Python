@@ -50,3 +50,18 @@ else:
 finally:
     # Code that always runs
     print("Thank you for using the program.")
+
+
+# Types of errors/Exceptions :-
+# 1. SyntaxError
+# 2. NameError
+# 3. TypeError
+# 4. ValueError
+# 5. ZeroDivisionError
+# 6. IndexError
+# 7. KeyError
+# 8. AttributeError
+# 9. ImportError
+# 10. IndentatnError
+
+# These are the most common and main types of errors. Although there are several more, but for now you will not need those, but you may go and research about them on your own if you are curious.
