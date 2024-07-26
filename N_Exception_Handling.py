@@ -39,6 +39,10 @@ except ValueError:
     print("Error: Please enter a valid number.")
     # ValueError is the name of the error that may appear.
 
+else:
+    # Code that always runs
+    print("Thank you once again for using the program.")
+
 # 3. Finally Block:
 #    - The 'finally' block is optional.
 #    - It contains code that will always run, whether there was an error or not.
