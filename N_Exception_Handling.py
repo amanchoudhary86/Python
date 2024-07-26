@@ -1,5 +1,4 @@
 # Exception Handling :-
-# Exception handling is a mechanism in programming languages that allows developers to manage and respond to runtime errors or unusual conditions that may occur during the execution of a program. Instead of causing the program to crash, exceptions can be caught and handled gracefully, enabling the program to continue running or to fail in a controlled manner.
 
 # What is Exception Handling :- 
 # In programming, things don't always go as planned. For example, you might try to divide a number by zero, or read from a file that doesn't exist. These situations cause errors called "exceptions." Exception handling is a way to catch these errors and do something about them, so your program doesn't crash unexpectedly.
