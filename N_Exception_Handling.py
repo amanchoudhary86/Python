@@ -22,6 +22,7 @@ try:
     number = int(input("Enter a number: "))
     result = 10 / number
     print("Result:", result)
+    # This block of code might cause an error if user inputs a string or 0.
 
 # 2. Except Block:
 #    - The 'except' block is used to handle the exception.
@@ -31,10 +32,12 @@ try:
 except ZeroDivisionError:
     # Code to handle division by zero error
     print("Error: You can't divide by zero!")
+    # ZeroDivisionError is the name of the error that may appear.
 
 except ValueError:
     # Code to handle value error (e.g., input is not a number)
     print("Error: Please enter a valid number.")
+    # ValueError is the name of the error that may appear.
 
 # 3. Finally Block:
 #    - The 'finally' block is optional.
