@@ -21,5 +21,7 @@ print("The file template.txt has been read")
 
 print(os.listdir(r"C:\Users\Aman\OneDrive\Desktop\Python\O_Modules_in_python")) # <--This prints all the files and directories in the given path.
 
-os.mkdir("Template_Directory") #<-- This simply creates a directory?folder named "Template_Directory" in our current working folder
+os.mkdir("Template_Directory_1") #<-- This simply creates a directory?folder named "Template_Directory" in our current working folder
 # Note : Only run this code once because it might cause an error saying that the directory we want to create already exists.
+
+os.makedirs("Template_directory_2/New")
