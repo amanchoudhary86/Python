@@ -25,3 +25,10 @@ os.mkdir("Template_Directory_1") #<-- This simply creates a directory?folder nam
 # Note : Only run this code once because it might cause an error saying that the directory we want to create already exists.
 
 os.makedirs("Template_directory_2/New")
+# Note : This creates directories within directories
+
+# Note : You cannot rename a file which is already opened by the program(refer line 19)
+f.close()
+
+os.rename("template.txt", "template_2.txt")
+# This is simply used to rename the files
