@@ -32,3 +32,5 @@ f.close()
 
 os.rename("template.txt", "template_2.txt")
 # This is simply used to rename the files
+
+# These are only some of the implementation of the os module. I would suggest you to visit the official documentation for this module on the official page of python
