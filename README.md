@@ -4,3 +4,5 @@ Stay Updated to get the latest files and code.
 In time this read_me file shall also provide with more insights.
 Happy Learning! 
 One code at a time.
+
+Note : Make sure to go through each file or folder in the alphabetical order for a proper understanding.
