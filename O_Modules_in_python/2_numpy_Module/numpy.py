@@ -6,3 +6,6 @@
 # NumPy is a popular Python library used for working with arrays and numerical data. It provides tools for creating and manipulating large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. NumPy is widely used in scientific computing, data analysis, and machine learning because it enables fast and flexible data processing.
 
 # Numpy is usually much faster than lists because it stores fixed data types and also because it stores the data in contiguous memory format (Meaning that there is no memory space between two elements)
+
+# Uses of numpy:-
+# 1. Mathematics (MATLAB Replacement)
