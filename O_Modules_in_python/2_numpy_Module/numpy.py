@@ -11,3 +11,16 @@
 # 1. Mathematics (MATLAB Replacement)
 # 2. Plotting (Matplotlib)
 # Machine Learning
+
+# Firstly let's import numpy
+import numpy as np
+
+# Now let's create a numpy array
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+# Output: [1 2 3 4 5]
+
+
+# Now let's create a 2D numpy array
+arr2d = np.array([[1, 2, 3], [4, 5]])
+print(arr2d)
