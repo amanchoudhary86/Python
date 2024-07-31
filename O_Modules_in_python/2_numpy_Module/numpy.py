@@ -9,3 +9,5 @@
 
 # Uses of numpy:-
 # 1. Mathematics (MATLAB Replacement)
+# 2. Plotting (Matplotlib)
+# Machine Learning
