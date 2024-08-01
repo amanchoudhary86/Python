@@ -9,6 +9,9 @@ print(os.getcwd(), "<-- This is the current working directory") # cwd means curr
 
 
 os.chdir(r"C:\Users\Aman\OneDrive\Desktop\Python")
+# r means raw string, it treats the string as it is, without any escape sequences
+
+# Output: C:\Users\Aman\OneDrive\Desktop\Python
 
 print(os.getcwd(), "<-- This is the current working directory") # cwd means current working directory
 # Output: C:\Users\Aman\OneDrive\Desktop\Python
@@ -27,7 +30,7 @@ os.mkdir("Template_Directory_1") #<-- This simply creates a directory?folder nam
 os.makedirs("Template_directory_2/New")
 # Note : This creates directories within directories
 
-# Note : You cannot rename a file which is already opened by the program(refer line 19)
+# Note : You cannot rename a file which is already opened by the program(refer line 22)
 f.close()
 
 os.rename("template.txt", "template_2.txt")
