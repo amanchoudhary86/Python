@@ -24,3 +24,6 @@ print(arr)
 # Now let's create a 2D numpy array
 arr2d = np.array([[1, 2, 3], [4, 5]])
 print(arr2d)
+
+# Now let's create a multidimensional array:-
+arrMulti = np.array([[1,2,3],[4,5,6],[7,8,9]])
