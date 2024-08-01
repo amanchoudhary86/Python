@@ -41,4 +41,4 @@ os.rename("template.txt", "template_2.txt")
 # This is the official documentation of the os module. It has all the functions and methods that you
 # can use in your python program.
 
-# Although this much is enough for now, if you wish to know more, you may visit the above link
+# Although this much is enough for now, if you wish to know more, you may visit the above link.
