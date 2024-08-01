@@ -17,14 +17,16 @@ import numpy as np
 
 # Now let's create a numpy array
 arr = np.array([1, 2, 3, 4, 5])
-print(arr)
+print("This is a 1-Dimensional OR 1D array-->", arr)
 # Output: [1 2 3 4 5]
 
 
 # Now let's create a 2D numpy array
-arr2d = np.array([[1, 2, 3], [4, 5]])
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])
+print("This is a 2-Dimensional OR 2D array:-")
 print(arr2d)
 
 # Now let's create a multidimensional array:-
 arrMulti = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print("This is a 3-Dimensional OR 3D array:-")
 print(arrMulti)
