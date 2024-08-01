@@ -30,3 +30,11 @@ print(arr2d)
 arrMulti = np.array([[1,2,3],[4,5,6],[7,8,9]])
 print("This is a 3-Dimensional OR 3D array:-")
 print(arrMulti)
+
+# To get the dimension of a particular array:-
+print("Dimension of the array arr:-")
+arr.ndim()
+print("Dimension of the array arr:-")
+arr2d.ndim()
+print("Dimension of the array arr:-")
+arrMulti.ndim()
