@@ -10,7 +10,7 @@
 # Uses of numpy:-
 # 1. Mathematics (MATLAB Replacement)
 # 2. Plotting (Matplotlib)
-# Machine Learning
+# 3. Machine Learning
 
 # Firstly let's import numpy
 import numpy as np
