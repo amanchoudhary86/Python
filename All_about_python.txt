@@ -1,0 +1,3 @@
+Python is a programming language which is one of the most widely used programming languages over the globe. Python is considered to be the one of the easiest languages in the world as its syntax closely resembles English language which is one of the reason that it is taught in most of the institutions and schools. 
+
+Python was released on 20th February, 1991. (Need not remember it, as it is for fun fact only)
