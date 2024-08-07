@@ -35,7 +35,9 @@ print(arrMulti)
 # To get the dimension of a particular array:-
 print("Dimension of the array arr:-")
 arr.ndim()
+
 print("Dimension of the array arr:-")
 arr2d.ndim()
+
 print("Dimension of the array arr:-")
 arrMulti.ndim()
