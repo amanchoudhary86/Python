@@ -74,5 +74,15 @@ Popular Applications Built in Python 🌍📱
 
 How does the Python code runs/works:- 
 
-Python program--->byte code (file extension is .pycs)
+Python program--->byte code (file extension is .pyc) 
+
+When you run a Python program, the Python interpreter first compiles the source code (.py file) into bytecode, which is a lower-level, platform-independent representation of your code. This bytecode is then executed by the Python Virtual Machine (PVM).
+
+Here’s a breakdown:
+
+1. Compilation to Bytecode: When you execute a Python script, the interpreter compiles the source code into bytecode (.pyc files). This bytecode is not human-readable and is stored in a format that the Python Virtual Machine (PVM) can understand.
+
+2. Execution by the PVM: The Python Virtual Machine executes the bytecode, interpreting it line by line.
+
+
 -------------------------------------------------------------------------------------------------------------------------------
