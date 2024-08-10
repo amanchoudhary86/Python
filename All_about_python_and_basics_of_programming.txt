@@ -59,4 +59,20 @@ Reasons for Python's popularity: 🌟
 
 9. Dynamically typed: We need not assign and mention the type of value for any variable because its interpretor itself defines the type for any variable we create.
 
+10. Automatic Garbage Collection: Automatic garbage collection in Python is a memory management technique that helps in automatically reclaiming memory that is no longer in use by the program. This process ensures efficient memory usage and prevents memory leaks. 
+
+List of some popular applications built in python:
+1. Instagram
+2. Pinterest
+3. YouTube
+4. Dropbox
+5. Reddit
+6. Netflix
+7. Spotify
+8. Google
+9. Facebook
+10. Instagram
+11. Snapchat
+12. WhatsApp
+
 -------------------------------------------------------------------------------------------------------------------------------
