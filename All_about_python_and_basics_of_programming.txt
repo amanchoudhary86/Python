@@ -57,6 +57,4 @@ Reasons for Python's popularity: 🌟
 
 8. Platform Independent: Python programs are typically first compiled into intermediate code, then the code is run by the interpreter. 🔄🌍
 
----
-
-Feel free to make any adjustments if needed! 😊
+-------------------------------------------------------------------------------------------------------------------------------
