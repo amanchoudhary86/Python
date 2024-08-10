@@ -8,6 +8,24 @@ other digital products.
 
 A programming language is simply a tool or a medium to communicate with a computer or a machine.
 
+What is a Compiler?
+Answer. Whenever we want to communicate with a machine we use a programming language but any machine in this world only understands 0s and 1s. Meaning this language or a programming language we use needs to be converted in the form of 0s and 1s and this intermediate which converts the normal code into byte code(code in the form of 0s and 1s).
+
+Meaning that a compiler is simply a translator which converts the commands that we give into the form of 0s and 1s which the computer understands.
+
+What is an Interpretor?
+Answer. An Interpretor is a program which converts the code into the form of 0s and
+1s at the time of execution. Meaning that it does not convert the entire code into the form
+of 0s and 1s at the time of compilation but it converts the code into the
+form of 0s and 1s at the time of execution.
+
+OR
+
+It simply like the compiler but the difference is that it converts each line one by one. 
+
+Note: The compiler converts the whole file into byte code all at once instead of line by line.
+
+Python Programming uses an Interpretor.
 
 Python is a programming language which is one of the most widely used programming languages over the globe. Python is considered to be the one of the easiest languages in the world as its syntax closely resembles English language which is one of the reason that it is taught in most of the institutions and schools. 
 
