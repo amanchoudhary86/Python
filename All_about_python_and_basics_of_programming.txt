@@ -72,4 +72,7 @@ Popular Applications Built in Python 🌍📱
 10. Snapchat
 11. WhatsApp
 
+How does the Python code runs/works:- 
+
+Python program--->byte code (file extension is .pycs)
 -------------------------------------------------------------------------------------------------------------------------------
