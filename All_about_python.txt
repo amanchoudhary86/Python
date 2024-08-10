@@ -4,11 +4,15 @@ used to write code, which is a set of instructions that a computer can follow to
 task. Programming languages are used to communicate with computers and to create software, apps, and
 other digital products.
 
+                                    OR
+
+A programming language is simply a tool or a medium to communicate with a computer or a machine.
+
 
 Python is a programming language which is one of the most widely used programming languages over the globe. Python is considered to be the one of the easiest languages in the world as its syntax closely resembles English language which is one of the reason that it is taught in most of the institutions and schools. 
 
-Python was released on 20th February, 1991. (Need not remember it, as it is for fun fact only)
-meaning that it is even older than JAVA which was released in 1995.
+Python was released on 20th February, 1991. (Need not remember it, just a fun fact)
+->>meaning that it is even older than JAVA which was released in 1995.
 
 Reasons for Python's popularity:-
 1. Easy to learn: Python is considered to be one of the easiest programming languages to learn.
