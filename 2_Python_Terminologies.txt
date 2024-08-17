@@ -1,0 +1,46 @@
+Keywords: Keywords are specially reserved words which we use for various functionalities.
+Ex: for, while, True, False, if, else, elif, del, and, or, not etc.
+
+Variables: 
+Variables are used to store the values in a program. We can assign a value to a variable and
+use it whenever we want in the program.
+Ex: x = 5, y = 10, name = "John"
+
+Note: A variable name cannot be a reserved keyword.
+
+Data types:
+Data types are used to specify the type of data that a variable can hold. Python has the following
+data types:
+
+1. Integers: These are whole numbers, either positive, negative or zero.
+Ex: 1, 2, 3, 0 ,-1, -2, -3 etc
+
+2. Floats: These are decimal numbers.
+Ex: 3.14, -0.56, 0.0 etc
+
+3. Strings: These are sequences of characters.
+Ex: "Hello", 'Hello', "John's car", 'John's car' etc
+
+4. Boolean: These are true or false values.
+Ex: True, False
+
+5. List: These are ordered collections of items.
+Ex: [1, 2, 3], ["apple", "banana", "cherry]
+
+6. Tuple: These are ordered, immutable(unchangable) collections of items.
+Ex: (1, 2, 3), ("apple", "banana", "cherry)
+
+7. Dictionary: These are unordered collections of key-value pairs.
+Ex: {"name": "John", "age": 30}, {"name": "Jane", "age": 25}
+
+8. Set: These are unordered collections of unique items.
+Ex: {1, 2, 3}, {"apple", "banana", "cherry}
+
+9. NoneType: This is a special data type that represents the absence of a value.
+Ex: None
+
+10. Complex: These are complex numbers.
+Ex: 3+4j, -5-6j etc
+
+11. Bytes: These are sequences of integers in the range 0 <= x < 256.
+Ex: b'Hello', b'World'
