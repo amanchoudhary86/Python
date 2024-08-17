@@ -93,4 +93,15 @@ Python has several implementations, including:
 5. MicroPython (a lightweight implementation for microcontrollers)
 6. Pyodide (a Python implementation for the WebAssembly platform)
 
+How to run the python code :-
+1. Save the python code in a file with a .py extension.
+2. Open a terminal or command prompt.
+3. Navigate to the directory where the python file is saved.
+4. Type `python filename.py` and press Enter.
+5. The Python interpreter will execute the code, and the output will be displayed in the terminal itself.
+
+                                            OR 
+
+You can also use an Integrated Development Environment (IDE) like PyCharm, Visual Studio
+Code, or Sublime Text to write, run, and debug your Python code.
 -------------------------------------------------------------------------------------------------------------------------------
