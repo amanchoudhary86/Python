@@ -109,6 +109,6 @@ To check whether the python file we made is compiling successfully or not:
 1. Open the terminal or command prompt.
 2. Navigate to the directory where the python file is saved.
 3. Type `python -m py_compile filename.py` and press Enter.
-
+Note : This is an optional command if you want to just check the compilation step.
 
 -------------------------------------------------------------------------------------------------------------------------------
