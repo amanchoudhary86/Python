@@ -84,5 +84,13 @@ Here’s a breakdown:
 
 2. Execution by the PVM: The Python Virtual Machine executes the bytecode, interpreting it line by line.
 
+Implementations of Python:
+Python has several implementations, including:
+1. CPython (the original and most widely used implementation)
+2. PyPy (a just-in-time compiler that provides significant speed improvements)
+3. Jython (an implementation for the Java Virtual Machine)
+4. IronPython (an implementation for the .NET Common Language Runtime)
+5. MicroPython (a lightweight implementation for microcontrollers)
+6. Pyodide (a Python implementation for the WebAssembly platform)
 
 -------------------------------------------------------------------------------------------------------------------------------
