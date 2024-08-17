@@ -104,4 +104,11 @@ How to run the python code :-
 
 You can also use an Integrated Development Environment (IDE) like PyCharm, Visual Studio
 Code, or Sublime Text to write, run, and debug your Python code.
+
+To check whether the python file we made is compiling successfully or not:
+1. Open the terminal or command prompt.
+2. Navigate to the directory where the python file is saved.
+3. Type `python -m py_compile filename.py` and press Enter.
+
+
 -------------------------------------------------------------------------------------------------------------------------------
