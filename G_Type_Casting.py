@@ -73,3 +73,19 @@ print("After Converting Float to Integer:", g)  # Output: 3
 # Summary:
 # - Implicit casting is done by Python automatically, whereas explicit casting is done manually.
 # - Use explicit casting to ensure your data is in the correct format for operations.
+
+# type function:
+# The type() function returns the type of the object passed to it.
+# It can be used to check the type of a variable or an object.
+# It can also be used to get the type of a variable or an object.
+
+# Example:
+type(5)  # Output: <class 'int'>
+type(3.14)  # Output: <class 'float'>
+type("Hello")  # Output: <class 'str'>
+
+# OR
+
+print(type(5))  # Output: <class 'int'>
+print(type(3.14))  # Output: <class 'float'>
+print(type("Hello"))  # Output: <class 'str'>
