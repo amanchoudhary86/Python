@@ -39,6 +39,17 @@ print(escaped_string)
 
 # Note : In depth study of functions will be done in later modules
 
+
+# id():-
+# id() function returns the “identity" of the object, which is an integer that is guaranteed to be unique and constant for the object during its lifetime.
+# It is used to check whether the two variables point to the same object in memory or not.
+print(id(10))
+print(id(10.5))
+print(id("Hello"))
+
+# Note: If you did not understand the above mentioned three points just know that id() simply provides the memory address of what is inside it.
+
+
 # 'end' in print() functions:
 
 # Simply put it specifies what the string ends with:

@@ -40,13 +40,3 @@ input("Exter your value here : ")
 VariableName = input("Input your number here : ")
 # You may use any other name instead of 'VariableName' if you wish
 print("Your number is : ", VariableName)
-
-# id():-
-# id() function returns the “identity" of the object, which is an integer that is guaranteed
-# to be unique and constant for the object during its lifetime.
-# It is used to check whether the two variables point to the same object in memory or not.
-print(id(10))
-print(id(10.5))
-print(id("Hello"))
-
-# Note: If you did not understand the above mentioned three points just know that id() simply provides the memory address of wht is inside it.

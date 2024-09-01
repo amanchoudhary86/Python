@@ -9,7 +9,9 @@ Ex: x = 5, y = 10, name = "John"
 Note: A variable name cannot be a reserved keyword.
 
 Data types:
-Data types are used to specify the type of data that a variable can hold. Python has the following
+Data types are used to specify the type of data that a variable can hold. 
+
+Python has the following
 data types:
 
 1. Integers: These are whole numbers, either positive, negative or zero.

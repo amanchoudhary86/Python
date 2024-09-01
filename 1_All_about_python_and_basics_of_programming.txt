@@ -28,9 +28,7 @@ Note: The compiler converts the whole file into byte code all at once, unlike th
 
 Python is one of the most widely used programming languages globally. It’s considered one of the easiest languages to learn because its syntax closely resembles the English language, making it popular in educational institutions. 📚🌍
 
-Fun Fact: Python was released on February 20, 1991. (No need to remember this; just a fun fact!) 🎉
-
-👉 This means it’s even older than JAVA, which was released in 1995.
+Fun Fact: Python was released on February 20, 1991. 👉 This means it’s even older than JAVA, which was released in 1995.
 
 ---
 
@@ -94,7 +92,7 @@ Python has several implementations, including:
 6. Pyodide (a Python implementation for the WebAssembly platform)
 
 How to run the python code :-
-1. Save the python code in a file with a .py extension.
+1. Save the python code in a file with a .py extension. (Ex. Hello.py , New.py, Any_name.py)
 2. Open a terminal or command prompt.
 3. Navigate to the directory where the python file is saved.
 4. Type `python filename.py` and press Enter.
