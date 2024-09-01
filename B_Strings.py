@@ -50,12 +50,15 @@ print(id("Hello"))
 # Note: If you did not understand the above mentioned three points just know that id() simply provides the memory address of what is inside it.
 
 
-# 'end' in print() functions:
+# 'end' parameter in print() functions:
 
 # Simply put it specifies what the string ends with:
 
 print("An example of end", end=" in print function\n")
 
+# 'sep' parameter in print() functions:
+# It is used to specify the separator between the values to be printed.
+print("1","9","2024", sep="-")
 
 #Indexing: It means, numbering of the characters of a string. It is done in the following way:
 
