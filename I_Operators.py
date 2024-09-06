@@ -47,6 +47,7 @@
 # Arithmetic operators:-
 a = 11
 b = 5
+c = 11
 print("a", a)
 print("b", b)
 
@@ -96,6 +97,23 @@ print("a > b and a < b", a > b and a < b )
 # 2. OR (or) :-
 # It returns True if either of the conditions is True
 print("a > b or a < b", a > b or a < b )
+
+# 3. NOT (not) :-
+# It returns True if the condition is False and vice versa
+print("not a > b", not a > b)
+
+# Note: It will return False because a > b is True
+
+# Identity Comparison Operators:
+# 1. is :-
+# It checks if both the variables are the same object in memory
+print("a is b", a is c)
+# Note: It will return True because a and b are refering to the same memory location. 
+
+# 2. is not :-
+# It checks if both the variables are not the same object in memory
+print("a is not b", a is not c)
+# Note: It will return False because a and b are refering to the same memory location
 
 # Bitwise operators:
 # These operators are used to perform operations on the binary digits of the numbers.
