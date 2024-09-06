@@ -50,20 +50,20 @@ b = 5
 print("a", a)
 print("b", b)
 
-# Addition:-
+#1. Addition:-
 print("a + b = ", a + b )
 
-# Subtraction:-
+#2. Subtraction:-
 print("a - b = ", a - b )
 
-# Multiplication:-
+#3. Multiplication:-
 print("a * b = ", a * b )
 
-# Division:-
+#4. Division:-
 print("a / b = ", a / b )
 # Note: The result of division is always a float value(In decimal)
 
-# Floor Division:-
+#5. Floor Division:-
 print("a // b = ", a // b )
 # Note: The result of floor division is always an integer value(In whole number)
 # Simply put it is just the simple division as above but it only removes the decimal and the values after that
@@ -72,17 +72,21 @@ print("a // b = ", a // b )
 # 11 / 5 = 2.2
 # 11 // 5 = 2
 
-# Modulus:- 
+# 6. Modulus:- 
 # It simply returns the remainder
 print("a % b = ", a % b )
 # Example:
 # 11 divided by 5 gives the remainder 1, so a % b = 11 % 5 = 1 <-- for reference only
 
-# Exponentiation:-
+# 7. Exponentiation:-
 print("a ** b = ", a ** b )
 # a ** b is simply a to power b 
 
-
+# 'in' operator:
+# It is used to check if a value is present in a sequence or not.
+print("5 in [1, 2, 3, 4, 5]",
+      5 in [1, 2, 3, 4, 5])
+# Output: True
 
 # Bitwise operators:
 # These operators are used to perform operations on the binary digits of the numbers.
