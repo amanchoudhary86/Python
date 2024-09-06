@@ -82,11 +82,20 @@ print("a % b = ", a % b )
 print("a ** b = ", a ** b )
 # a ** b is simply a to power b 
 
-# 'in' operator:
-# It is used to check if a value is present in a sequence or not.
-print("5 in [1, 2, 3, 4, 5]",
-      5 in [1, 2, 3, 4, 5])
-# Output: True
+# Logical Operators:
+# 1. AND (and) :-
+# It returns True if both the conditions are True
+print("a > b and a < b", a > b and a < b )
+# Note: It will return False because a is not less than b
+
+# Example:-
+# a = 11
+# b = 5
+# a > b and a < b is False because a is not less than b
+
+# 2. OR (or) :-
+# It returns True if either of the conditions is True
+print("a > b or a < b", a > b or a < b )
 
 # Bitwise operators:
 # These operators are used to perform operations on the binary digits of the numbers.
