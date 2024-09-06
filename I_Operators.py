@@ -180,7 +180,7 @@ print(int("0b10010",2))
 # 1 and 0 --> 0
 # 1 and 1 --> 1
 
-# 1. Bitwise OR (|):
+# 2. Bitwise OR (|):
 # It performs a binary OR operation on each bit of the two operands.
 
 # Example:
@@ -194,5 +194,21 @@ print(int("0b10010",2))
 # 0 or 1 --> 1
 # 1 or 0 --> 1
 # 1 or 1 --> 1
+
+# 3. Bitwise Left Shift (<<):
+# This operator shifts the binary value of a number to the specified Value
+# Example:
+# 5 in binary is 101
+
+p = 5
+print(p << 1) # Output: 10
+
+# Explaination:
+# 101 << 1 = 1010
+
+# Similarily,
+101 << 2 = 10100
+101 << 3 = 101000 # and so on
+
 
 # We will be learning other operators in the further modules as we go, so stay tuned.
