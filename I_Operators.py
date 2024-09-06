@@ -174,7 +174,11 @@ print(int("0b10010",2))
 # 21 = 10101
 #      _____
 #      10000 = 16
-        
+
+# 0 and 0 --> 0
+# 0 and 1 --> 0
+# 1 and 0 --> 0
+# 1 and 1 --> 1
 
 
 # We will be learning other operators in the further modules as we go, so stay tuned.
