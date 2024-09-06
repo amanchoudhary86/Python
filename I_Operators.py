@@ -190,9 +190,9 @@ print(int("0b10010",2))
 #      _____
 #      10111 = 16
 
-# 0 and 0 --> 0
-# 0 and 1 --> 1
-# 1 and 0 --> 1
-# 1 and 1 --> 1
+# 0 or 0 --> 0
+# 0 or 1 --> 1
+# 1 or 0 --> 1
+# 1 or 1 --> 1
 
 # We will be learning other operators in the further modules as we go, so stay tuned.
