@@ -196,7 +196,7 @@ print(int("0b10010",2))
 # 1 or 1 --> 1
 
 # 3. Bitwise Left Shift (<<):
-# This operator shifts the binary value of a number to the specified Value
+# This operator shifts the binary value of a number to left as per the specified Value
 # Example:
 # 5 in binary is 101
 
@@ -207,8 +207,51 @@ print(p << 1) # Output: 10
 # 101 << 1 = 1010
 
 # Similarily,
-101 << 2 = 10100
-101 << 3 = 101000 # and so on
+# 101 << 2 = 10100
+# 101 << 3 = 101000 and so on
+
+# 4. Bitwise Right Shift (>>):
+# This operator shifts the binary value of a number to right as per the specified Value
+# Example:
+# 18 in binary is 10010
+p = 18
+print(p >> 1) # Output: 9
+
+# Explaination:
+# 10010 >> 1 = 1010
+
+# Similarily,
+# 10010 >> 2 = 101
+# 10010 >> 3 = 10 and so on
+
+# 5. Bitwise XOR (^):
+# It performs a binary XOR operation on each bit of the two operands.
+
+# Example:
+# Let us say that we wish to perform a bitwise XOR operation on 18 and 21:-
+# 18 = 10010
+# 21 = 10101
+#      _____
+#      00111 = 7
+
+# 0 XOR 0 --> 0
+# 0 XOR 1 --> 1
+# 1 XOR 0 --> 1
+# 1 XOR 1 --> 0
+
+# Easy way to learn: Same bit--> 0 and different bit--> 1
 
 
-# We will be learning other operators in the further modules as we go, so stay tuned.
+# 6. Bitwise AND (&):
+# It performs a binary AND operation on each bit of the two operands.
+# Example:
+# Let us say that we wish to perform a bitwise AND operation on 18 and 21:
+# 18 = 10010
+# 21 = 10101
+#      _____
+#      10000 = 16
+# 1 AND 1 --> 1
+# 0 AND 0 --> 0
+# 1 AND 1 --> 1
+# 0 AND 1 --> 0
+
