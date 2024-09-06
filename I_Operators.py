@@ -241,17 +241,12 @@ print(p >> 1) # Output: 9
 
 # Easy way to learn: Same bit--> 0 and different bit--> 1
 
-
-# 6. Bitwise AND (&):
-# It performs a binary AND operation on each bit of the two operands.
+# 6. Bitwise NOT (~) :
+# This operator is used to flip the bits of a number.
 # Example:
-# Let us say that we wish to perform a bitwise AND operation on 18 and 21:
+# Let us say that we wish to perform a bitwise NOT operation on 18:-
 # 18 = 10010
-# 21 = 10101
-#      _____
-#      10000 = 16
-# 1 AND 1 --> 1
-# 0 AND 0 --> 0
-# 1 AND 1 --> 1
-# 0 AND 1 --> 0
+# ~18 = -19 
+# Note: In order to understend this operator, please refer to an external source.
 
+# Note: For now just understand that it inverts the bits, meaning it converts all the 0s to 1s and vice versa.
