@@ -82,4 +82,26 @@ print("a % b = ", a % b )
 print("a ** b = ", a ** b )
 # a ** b is simply a to power b 
 
+
+
+# Bitwise operators:
+# These operators are used to perform operations on the binary digits of the numbers.
+
+# Decimal to binary conversion:
+
+# Example:
+# Let us say that we wish to convert 18 to binary:-
+# 18 / 2 = 9 remainder 0
+# 9 / 2 = 4 remainder 1
+# 4 / 2 = 2 remainder 0
+# 2 / 2 = 1 remainder 0
+# 1 / 2 = 0 remainder 1
+# So the binary representation of 18 is 10010.
+
+# Binary to decimal conversion:
+# Example:
+# Let us say that we wish to convert 10010 to decimal:-
+# we start from the last bit and to the front--> 
+# (0 * 2⁰) + (1 * 2¹) + (0 * 2²) + (0 * 2³) + (1 * 2⁴) = 18
+
 # We will be learning other operaators in the further modules as we go, so stay tuned.
