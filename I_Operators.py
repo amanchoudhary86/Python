@@ -115,6 +115,27 @@ print("a is b", a is c)
 print("a is not b", a is not c)
 # Note: It will return False because a and b are refering to the same memory location
 
+# Important: Note that if there are two lists which have same content are stored in different memory location.
+# Example:
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(a is b) # False
+
+# Membership Test Operators:-
+# 1. in :-
+# It checks if a value is present in a sequence (like list, tuple, string etc)
+print("1 in x", 1 in x)
+# Note: It will return True because 1 is present in the list a
+
+# 2. not in :-
+# It checks if a value is not present in a sequence (like list, tuple, string etc
+print("2 not in y", 2 not in y)
+# Note: It will return True because 2 is not present in the list a
+
+# String: Checks for substring in a String
+# Dictionary: Checks for the Key in a Dictionary
+
+
 # Bitwise operators:
 # These operators are used to perform operations on the binary digits of the numbers.
 
@@ -135,4 +156,25 @@ print("a is not b", a is not c)
 # we start from the last bit and to the front--> 
 # (0 * 2⁰) + (1 * 2¹) + (0 * 2²) + (0 * 2³) + (1 * 2⁴) = 18
 
-# We will be learning other operaators in the further modules as we go, so stay tuned.
+# We can use these conversions with the help of Python itself:
+# Example:
+
+print(bin(18))
+# Output: 0b10010
+
+print(int("0b10010",2))
+# Output: 18
+
+# 1. Bitwise AND (&):
+# It performs a binary AND operation on each bit of the two operands.
+
+# Example:
+# Let us say that we wish to perform a bitwise AND operation on 18 and 21:-
+# 18 = 10010
+# 21 = 10101
+#      _____
+#      10000 = 16
+        
+
+
+# We will be learning other operators in the further modules as we go, so stay tuned.
