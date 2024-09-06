@@ -180,5 +180,19 @@ print(int("0b10010",2))
 # 1 and 0 --> 0
 # 1 and 1 --> 1
 
+# 1. Bitwise OR (|):
+# It performs a binary OR operation on each bit of the two operands.
+
+# Example:
+# Let us say that we wish to perform a bitwise OR operation on 18 and 21:-
+# 18 = 10010
+# 21 = 10101
+#      _____
+#      10111 = 16
+
+# 0 and 0 --> 0
+# 0 and 1 --> 1
+# 1 and 0 --> 1
+# 1 and 1 --> 1
 
 # We will be learning other operators in the further modules as we go, so stay tuned.
