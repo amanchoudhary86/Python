@@ -25,3 +25,11 @@ tpl2 = 1,2,3,4 #This is created without the use of paranthesis () for the ease o
 a,b,c,d = tpl2
 
 print(c)
+
+random_var = -5
+print(abs(random_var))
+
+random_var2 = 67
+print(abs(random_var2))
+
+# abs() function is a function which always returns the positive value
