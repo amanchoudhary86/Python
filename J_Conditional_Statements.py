@@ -8,7 +8,7 @@
 # 3. elif statement
 
 
-# if statement :-
+#1.  if statement :-
 a = 10
 if a > 5 :
     print("a is greater than 5")
@@ -30,7 +30,7 @@ if a > 11 :
 # Note: This print statement will not be executed as a > 11 is not true
 
 
-# if-else statement :-
+#2. if-else statement :-
 age = 10
 
 if age >= 18 :
@@ -42,7 +42,7 @@ else :
 # Note: The else statement is executed only if the condition is false
 
 
-# elif statements:
+#3.  elif statements:
 
 # elif is used to check multiple conditions. It is used to check if the first condition is false then it checks the second condition and so on.
 # Note: elif is short for else if
