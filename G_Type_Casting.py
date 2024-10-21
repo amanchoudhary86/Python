@@ -1,15 +1,15 @@
-# Type Casting:-
+""" Type Casting:-
 
-# Type casting is the process of converting one data type into another.
-# It is also known as type conversion.
+Type casting is the process of converting one data type into another.
+It is also known as type conversion.
 
-# There are two types of type casting:
-# 1. Implicit Type Casting (Automatic conversion by Python)
-# 2. Explicit Type Casting (Manual conversion by the programmer)
+There are two types of type casting:
+1. Implicit Type Casting (Automatic conversion by Python)
+2. Explicit Type Casting (Manual conversion by the programmer)
 
-# Implicit Type Casting
-# Python automatically converts a smaller data type to a larger data type
-# to prevent data loss.
+Implicit Type Casting
+Python automatically converts a smaller data type to a larger data type
+to prevent data loss."""
 
 # Example of implicit type casting:
 a = 10  # 'a' is an integer
@@ -35,14 +35,14 @@ print("After Type Casting to String:", type(c))  # Output: <class 'str'>
 
 print()  # just for better readability in the output
 
-# Common functions for explicit type casting:
-# - int(): Converts a value to an integer
-# - float(): Converts a value to a float
-# - str(): Converts a value to a string
-# - list(): Converts a value to a list
-# - tuple(): Converts a value to a tuple
-# - set(): Converts a value to a set
-# - dict(): Converts a sequence of key-value pairs to a dictionary
+""" Common functions for explicit type casting:
+ - int(): Converts a value to an integer
+ - float(): Converts a value to a float
+ - str(): Converts a value to a string
+ - list(): Converts a value to a list
+ - tuple(): Converts a value to a tuple
+ - set(): Converts a value to a set
+ - dict(): Converts a sequence of key-value pairs to a dictionary"""
 
 # Example of converting string to integer
 d = "42"
@@ -62,23 +62,23 @@ f = 3.99
 g = int(f)  # The decimal part is removed
 print("After Converting Float to Integer:", g)  # Output: 3
 
-# 2. Conversion Errors: Incompatible types can raise ValueError.
-# If we try to convert a string containing alphanumeric("123abc") or alphabetic("abc") characters to integer or float or to a numeric type, then it raises an error 
+"""2. Conversion Errors: Incompatible types can raise ValueError.
+ If we try to convert a string containing alphanumeric("123abc") or alphabetic("abc") characters to integer or float or to a numeric type, then it raises an error 
 
-# Use Cases for Type Casting:
-# - Reading data from files or user input, which is often in string format.
-# - Performing mathematical operations where type precision matters.
-# - Interfacing with APIs or libraries that require specific data types.
+ Use Cases for Type Casting:
+ - Reading data from files or user input, which is often in string format.
+ - Performing mathematical operations where type precision matters.
+ - Interfacing with APIs or libraries that require specific data types.
 
-# Summary:
-# - Implicit casting is done by Python automatically, whereas explicit casting is done manually.
-# - Use explicit casting to ensure your data is in the correct format for operations.
+ Summary:
+ - Implicit casting is done by Python automatically, whereas explicit casting is done manually.
+ - Use explicit casting to ensure your data is in the correct format for operations.
 
-# type function:
-# The type() function returns the type of the object passed to it.
-# It can be used to check the type of a variable or an object.
-# It can also be used to get the type of a variable or an object.
-
+ type function:
+ The type() function returns the type of the object passed to it.
+ It can be used to check the type of a variable or an object.
+ It can also be used to get the type of a variable or an object.
+"""
 # Example:
 type(5)  # Output: <class 'int'>
 type(3.14)  # Output: <class 'float'>
