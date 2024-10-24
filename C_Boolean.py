@@ -1,6 +1,9 @@
 # Boolean data type in Python
 
-# A boolean data type stores one of two values: True or False
+'''
+A boolean data type stores any one of these two values: True or False
+'''
+
 a = True
 b = False
 

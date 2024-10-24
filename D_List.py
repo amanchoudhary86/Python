@@ -1,9 +1,10 @@
-# Lists:-
+''' Lists:-
 
-# A list is an ordered collection of items, which can be of any data type. Lists are mutable, meaning that you can change their contents without changing their identity.
+A list is an ordered collection of items, which can be of any data type. Lists are mutable, meaning that you can change their contents without changing their identity.
+'''
 
 ls = ["Python",1,2,3,True,2.5]
-lst = ls # Some functions perform same kind of task that is why an another list of name 'lst' with the same elements has been added
+lst = ls # Some functions perform same kind of task that is why an another list of name 'lst' with the same elements has been assigned here
 print("ls = ",ls)
 
 # Just like Strings lists also have the concept of indexing for the elements it contais:
@@ -39,7 +40,9 @@ del ls[3]
 # del ls[Index number] <-- for reference only
 print('del ls[3] --> ',lst)
 
-# Main Difference: del ls[3] does not return the value of the deleted value (Erases the value  completely) whereas ls.pop(3) removes the value and returns it back(meaning that the removed element can be stored in another variable)
+'''
+Main Difference: del ls[3] does not return the value of the deleted value (Erases the value  completely) whereas ls.pop(3) removes the value and returns it back(meaning that the removed element can be stored in another variable)
+'''
 
 # To delete an element by its value:
 ls.remove("Programming")

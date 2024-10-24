@@ -1,29 +1,32 @@
-# Conditional statements :-
+'''
+Conditional statements :-
 
-# Conditional statements are some specific statements which are used to control the flow of the program. They allow our program to choose between multiple options.
-# Conditional statements are also known as decision making statements.
-# There are three types of conditional statements in Python:-
-# 1. if statement
-# 2. if-else statement
-# 3. elif statement
-
+Conditional statements are some specific statements which are used to control the flow of the program. They allow our program to choose between multiple options.
+Conditional statements are also known as decision making statements.
+There are three types of conditional statements in Python:-
+1. if statement
+2. if-else statement
+3. elif statement
+'''
 
 #1.  if statement :-
 a = 10
 if a > 5 :
     print("a is greater than 5")
 
-# Here '>' is a comparison operator which is comparing if a is greater than 5 or not
-# Similarily, 
-# '<' is used to compare if one value is less than the other
-# '==' is used to compare if two values are equal or not
-# '!=' is used to compare if two values are not equal
-# '>=' is used to compare if one value is greater than or equal to the other
-# '<=' is used to compare if one value is less than or equal to the other
+'''
+Here '>' is a comparison operator which is comparing if a is greater than 5 or not
+Similarily, 
+'<' is used to compare if one value is less than the other
+'==' is used to compare if two values are equal or not
+'!=' is used to compare if two values are not equal
+'>=' is used to compare if one value is greater than or equal to the other
+'<=' is used to compare if one value is less than or equal to the other
 
-# if statement is used to check if a condition is true or not. If the condition is true then the block of code is executed. If the condition is false then the block of code is not executed.
+if statement is used to check if a condition is true or not. If the condition is true then the block of code is executed. If the condition is false then the block of code is not executed.
 
-# Note: It is important to give a 3 line space in the next line after the colon(:) so that it can consider it a block of code, otherwise it might throw an error. This spcing is also Known as indentation
+Note: It is important to give a 3 line space in the next line after the colon(:) so that it can consider it a block of code, otherwise it might throw an error. This spcing is also Known as indentation
+'''
 
 if a > 11 :
     print("a is greater than 11")
@@ -44,9 +47,11 @@ else :
 
 #3.  elif statements:
 
-# elif is used to check multiple conditions. It is used to check if the first condition is false then it checks the second condition and so on.
-# Note: elif is short for else if
-# If a condition turns out to be true then it executes the respective block of code and does not check the rest of the condition
+'''
+elif is used to check multiple conditions. It is used to check if the first condition is false then it checks the second condition and so on.
+Note: elif is short for else if
+If a condition turns out to be true then it executes the respective block of code and does not check the rest of the condition
+'''
 
 if age > 18:
     print("You are allowed to drive")
@@ -75,15 +80,17 @@ if age < 18:
     # If we keep this block of code empty then it throws an error, that is why here we use the 'pass' keyword. The pass keyword does nothing but only hold the place for future development. 
     pass
 
-# Nested if-else :-
-# Nested if-else statements are used to check multiple conditions within conditions.
+'''
+Nested if-else :-
+Nested if-else statements are used to check multiple conditions within conditions.
 
-# Example:
-# Check if a number is positive, negative or zero.
-# If the number is positive then check if it is even or odd.
-# If the number is negative then check if it is even or odd.
-# If the number is zero then print "Zero"
-# Note: The number can be positive, negative or zero. So, we have to check all the conditions.
+Example:
+Check if a number is positive, negative or zero.
+If the number is positive then check if it is even or odd.
+If the number is negative then check if it is even or odd.
+If the number is zero then print "Zero"
+Note: The number can be positive, negative or zero. So, we have to check all the conditions.
+'''
 
 # Check if a number is positive, negative, or zero
 

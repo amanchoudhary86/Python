@@ -1,9 +1,12 @@
-# A set is an unordered collection of unique elements. 
-# This data type allows you to store a group of elements without duplicates.
-# Sets are written with curly brackets '{}'.
-# Sets are unordered, meaning they do not maintain the order of elements.
-# Sets are mutable, meaning you can add or remove elements after the set has been created.
-# However, the elements within the set must be immutable (e.g., numbers, strings, tuples).
+'''Set in Python
+
+A set is an unordered collection of unique elements. 
+This data type allows you to store a group of elements without duplicates.
+Sets are written with curly brackets '{}'.
+Sets are unordered, meaning they do not maintain the order of elements.
+Sets are mutable, meaning you can add or remove elements after the set has been created.
+However, the elements within the set must be immutable (e.g., numbers, strings, tuples).
+'''
 
 # Creating a set
 s = {1, 2, 3, "String1", "String2", 1.5, 4.2}

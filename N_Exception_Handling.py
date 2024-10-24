@@ -1,20 +1,21 @@
-# Exception Handling :-
+'''Exception Handling :-
 
-# What is Exception Handling :- 
-# In programming, things don't always go as planned. For example, you might try to divide a number by zero, or read from a file that doesn't exist. These situations cause errors called "exceptions." Exception handling is a way to catch these errors and do something about them, so your program doesn't crash unexpectedly.
+What is Exception Handling :- 
+In programming, things don't always go as planned. For example, you might try to divide a number by zero, or read from a file that doesn't exist. These situations cause errors called "exceptions." Exception handling is a way to catch these errors and do something about them, so your program doesn't crash unexpectedly.
 
-# Why Use Exception Handling :-
-# Prevent Crashes: If your program encounters an error, it can handle it and keep running instead of crashing.
-# Provide Useful Feedback: You can show user-friendly messages instead of cryptic error messages.
-# Ensure Cleanup: Make sure important cleanup actions (like closing a file) are always performed.
+Why Use Exception Handling :-
+Prevent Crashes: If your program encounters an error, it can handle it and keep running instead of crashing.
+Provide Useful Feedback: You can show user-friendly messages instead of cryptic error messages.
+Ensure Cleanup: Make sure important cleanup actions (like closing a file) are always performed.
 
-# Exception handling is done with the help of the following :-
+Exception handling is done with the help of the following :-
 
-# Exception handling is done with the following:
+Exception handling is done with the following:
 
-# 1. Try Block:
-#    - The 'try' block is used to write the code that might cause an exception (an error).
-#    - If everything runs smoothly, the code inside the 'try' block executes normally.
+1. Try Block:
+   - The 'try' block is used to write the code that might cause an exception (an error).
+   - If everything runs smoothly, the code inside the 'try' block executes normally.
+'''
 
 try:
     # Code that might cause an error
@@ -52,16 +53,18 @@ finally:
     print("Thank you for using the program.")
 
 
-# Types of errors/Exceptions :-
-# 1. SyntaxError
-# 2. NameError
-# 3. TypeError
-# 4. ValueError
-# 5. ZeroDivisionError
-# 6. IndexError
-# 7. KeyError
-# 8. AttributeError
-# 9. ImportError
-# 10. IndentatnError
+'''
+Types of errors/Exceptions :-
+1. SyntaxError
+2. NameError
+3. TypeError
+4. ValueError
+5. ZeroDivisionError
+6. IndexError
+7. KeyError
+8. AttributeError
+9. ImportError
+10. IndentatnError
 
-# These are the most common and main types of errors. Although there are several more, but for now you will not need those, but you may go and research about them on your own if you are curious.
+These are the most common and main types of errors. Although there are several more, but for now you will not need those, but you may go and research about them on your own if you are curious.
+'''

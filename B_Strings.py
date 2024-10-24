@@ -1,7 +1,7 @@
-# A string is a sequence of characters used to store and represent text.
-# In Python, strings are created by enclosing text in quotes.
-# You can use single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """).
-# Triple quotes are useful for multi-line strings or strings containing both single and double quotes.
+'''A string is a sequence of characters used to store and represent text.
+In Python, strings are created by enclosing text in quotes.
+You can use single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """).
+Triple quotes are useful for multi-line strings or strings containing both single and double quotes.'''
 
 # Example of strings:
 single_quote_string = 'Hello, world!'
@@ -13,51 +13,48 @@ print(single_quote_string)
 print(double_quote_string)
 print(triple_quote_string)
 
-# Strings can contain letters, numbers, symbols, and spaces.
-# You can include special characters like newlines (\n) or tabs (\t) using escape sequences.
+'''Strings can contain letters, numbers, symbols, and spaces.
+You can include special characters like newlines (\n) or tabs (\t) using escape sequences.
 
-# To define a string, follow these rules:
-# 1. Enclose your text in matching quotes (single, double, or triple).
+To define a string, follow these rules:
+1. Enclose your text in matching quotes (single, double, or triple).
 
-# 2. To include a quote character inside a string, use the opposite type of quote or escape it with a backslash (\).
-#    For example, "She said, 'Hello!'" or 'He said, "Hello!"' or "He said, \"Hello!\""
+2. To include a quote character inside a string, use the opposite type of quote or escape it with a backslash (\).
+   For example, "She said, 'Hello!'" or 'He said, "Hello!"' or "He said, \"Hello!\""
 
-# 3. Strings are immutable, which means you cannot change individual characters after the string is created.
-# However, you can create new strings based on existing ones.
+3. Strings are immutable, which means you cannot change individual characters after the string is created.
+However, you can create new strings based on existing ones.'''
 
 # Example of escaping quotes --> \' OR \" :
 escaped_string = 'He said, "It\'s a beautiful day!"'
 print(escaped_string)
 
-# Strings are commonly used for displaying messages, handling text input/output, and processing textual data.
+'''Strings are commonly used for displaying messages, handling text input/output, and processing textual data.
 
-# function : A function is a block of code which is used to perform some predefined or defined task
-# Ex: print() is a function to print the given content on the console
-# Types of functions:
-# 1. Pre-defined functions : print(), input() etc. which are already written for us to use
-# 2. User-defined functions : These are the functions which are defined by the user, meaning that their name and the task they perform is also set by the user itself.
+function : A function is a block of code which is used to perform some predefined or defined task
+Ex: print() is a function to print the given content on the console
+Types of functions:
+1. Pre-defined functions : print(), input() etc. which are already written for us to use
+2. User-defined functions : These are the functions which are defined by the user, meaning that their name and the task they perform is also set by the user itself.
 
-# Note : In depth study of functions will be done in later modules
+Note : In depth study of functions will be done in later modules
 
 
-# id():-
-# id() function returns the “identity" of the object, which is an integer that is guaranteed to be unique and constant for the object during its lifetime.
-# It is used to check whether the two variables point to the same object in memory or not.
+id():-
+id() function returns the “identity" of the object, which is an integer that is guaranteed to be unique and constant for the object during its lifetime.
+It is used to check whether the two variables point to the same object in memory or not.'''
 print(id(10))
 print(id(10.5))
 print(id("Hello"))
 
 # Note: If you did not understand the above mentioned three points just know that id() simply provides the memory address of what is inside it.
 
-
 # 'end' parameter in print() functions:
-
-# Simply put it specifies what the string ends with:
-
+'''Simply put, it specifies what the string ends with:'''
 print("An example of end", end=" in print function\n")
 
 # 'sep' parameter in print() functions:
-# It is used to specify the separator between the values to be printed.
+'''It is used to specify the separator between the values to be printed.'''
 print("1","9","2024", sep="-")
 
 #Indexing: It means, numbering of the characters of a string. It is done in the following way:
@@ -74,9 +71,11 @@ print(st[-2]) # prints n
 print(st[-21]) # prints h
 # This is called the Backward/Negative indexing
 
-# Note : Forward indexing starts from 0 but the Backward indexing starts from -1
-# Note : If we try to access a character which is not present in the string, it will
-# throw an error called "IndexError"
+'''
+Note : Forward indexing starts from 0 but the Backward indexing starts from -1
+Note : If we try to access a character which is not present in the string, it will
+throw an error called "IndexError"
+'''
 
 
 # Following are some pre-defined functions which can be used on strings:
@@ -135,11 +134,14 @@ print("str.isalpha()--> ", str.isalpha())
 
 # Centers the string in a field of the specified width, padding with the specified character.
 print("str.center(45, '*')--> ", str.center(45, "*"))
-# Simple calculation:
-# Total characters in the string = 37
-# Total characters in the field = 45
-# Total characters to be printed = 45 - 37 = 8 --> 4 on left and 4 on right (because it is str.center())
-# same thing is also done for the following two functions with some slight change in the position of stars --> (*)
+
+'''
+Simple calculation:
+Total characters in the string = 37
+Total characters in the field = 45
+Total characters to be printed = 45 - 37 = 8 --> 4 on left and 4 on right (because it is str.center())
+same thing is also done for the following two functions with some slight change in the position of stars --> (*)
+'''
 
 # Left justifies the string in a field of the specified width, padding with the specified character.
 print("str.ljust(45, '*')--> ", str.ljust(45, "*"))
