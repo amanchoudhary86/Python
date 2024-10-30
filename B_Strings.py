@@ -94,6 +94,17 @@ print("str.lower()--> ", str.lower())
 # Converts all characters in the string to uppercase.
 print("str.upper()--> ", str.upper())
 
+# Capitalizes the first character of the string and makes the rest lowercase.
+print("str.capitalize()--> ", str.capitalize())
+
+# Capitalizes the first character of each word in the string.
+print("str.title()--> ", str.title())
+
+# Example of capitalizing a specific character in the string using slicing.
+index = 10  # example index
+new_str = str[:index] + str[index].upper() + str[index+1:]
+print("Capitalizes character at index 10--> ", new_str)
+
 # Counts the number of occurrences of the substring "a" in the string.
 print('str.count("a")--> ', str.count("a"))
 
