@@ -83,3 +83,27 @@ add_five = lambda a: print(a + 5) #<-- lambda function takes only one variable a
 
 # Call the lambda function with an argument
 add_five(5)
+
+'''
+Global variable:-
+Global variables are the variables which are defined outside the function and can be accessed from any part of the program. These variables are accessible from any part of the program.
+
+Local variable:-
+Local variables are the variables which are defined inside the function and can be accessed only inside the function. These variables are not accessible from outside the function.
+
+Note:-
+The keyword global can be used to make a local variable global, which might be present inside a function or a class.
+
+Example is as follows:
+
+'''
+
+# Example:
+
+def fun():
+    global x #<-- making x global
+    x = 10
+
+x = 15
+fun()
+print(x)
