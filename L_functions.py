@@ -106,4 +106,4 @@ def fun():
 
 x = 15
 fun()
-print(x)
+print('The value has been changed for this global variable from 15 to -->',x)
