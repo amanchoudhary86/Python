@@ -8,6 +8,16 @@ Definition:-
 Functions are block of code which can be executed when they are called by the programmer.
 Functions are used to reduce the code redundancy and make the code more readable and maintainable.
 
+Applications of function:
+1. Code reusability:- Functions are used to reduce the code redundancy and make the code more readable and maintainable.
+2. Code organization:- Functions are used to organize the code in a logical way.
+3. Modularity:- Functions are used to divide the code into small modules which can be used to perform a specific task.
+4. Reusability:- Functions are used to reuse the code in different parts of the program.
+5. Readability:- Functions are used to make the code more readable by giving a meaningful name to
+the function.
+6. Maintainability:- Functions are used to make the code more maintainable by dividing the code into
+small modules.
+
 Let us understand with a simple example:
 
 Suppose a programmer wants to display/print "Hello World" on the console. Now to do this he calls the print() function and this function executes the code written inside it in some other module and when that code executes, the string written inside it will be printed successfully on the console.
