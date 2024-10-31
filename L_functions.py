@@ -98,8 +98,6 @@ Example is as follows:
 
 '''
 
-# Example:
-
 def fun():
     global x #<-- making x global
     x = 10
@@ -107,3 +105,21 @@ def fun():
 x = 15
 fun()
 print('The value has been changed for this global variable from 15 to -->',x)
+
+'''
+globals() function:-
+The globals() function is used to return the global symbol table as a dictionary. It is used to access the global variables from inside the function.
+
+Example is as follows:
+
+'''
+
+def func():
+    x = 10
+    globals()['x'] = 20
+    print('This is a local variable -->',x)
+
+
+x = 15
+func()
+print('This is a global variable which was changed in a function using the globals() function-->',x)
