@@ -39,6 +39,13 @@ Types of functions:
 
 Note : In depth study of functions will be done in later modules
 
+All the alphabet characters, numbers, and special characters are stored in the memory in the form of ASCII values.
+ASCII stands for American Standard Code for Information Interchange.
+
+ASCII values are the integer values which are assigned to the characters. For example, the ASCII value of 'A' is 65, 'B' is 66, 'a' is 97, 'b' is 98, '0' is 48, '1' is 49, etc.
+
+1. From 'A' to 'Z' the ASCII values are from 65 to 90.
+2. From 'a' to 'z' the ASCII values are from 97 to 122.
 
 id():-
 id() function returns the “identity" of the object, which is an integer that is guaranteed to be unique and constant for the object during its lifetime.
