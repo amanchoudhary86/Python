@@ -58,6 +58,10 @@ print('print(id("Hello")) -->',id("Hello"))
 
 '''ord():-
 ord() function returns the ASCII value of the character passed to it.'''
+print(ord('A')) # prints 65
+print(ord('a')) # prints 97
+print(ord(97)) # prints a
+print(ord(65)) # prints 65
 
 # 'end' parameter in print() functions:
 '''Simply put, it specifies what the string ends with:'''
