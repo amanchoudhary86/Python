@@ -39,14 +39,6 @@ Types of functions:
 
 Note : In depth study of functions will be done in later modules
 
-All the alphabet characters, numbers, and special characters are stored in the memory in the form of ASCII values.
-ASCII stands for American Standard Code for Information Interchange.
-
-ASCII values are the integer values which are assigned to the characters. For example, the ASCII value of 'A' is 65, 'B' is 66, 'a' is 97, 'b' is 98, '0' is 48, '1' is 49, etc.
-
-1. From 'A' to 'Z' the ASCII values are from 65 to 90.
-2. From 'a' to 'z' the ASCII values are from 97 to 122.
-
 id():-
 id() function returns the “identity" of the object, which is an integer that is guaranteed to be unique and constant for the object during its lifetime.
 It is used to check whether the two variables point to the same object in memory or not.'''
@@ -55,13 +47,25 @@ print("print(id(10.5)) -->",id(10.5))
 print('print(id("Hello")) -->',id("Hello"))
 
 # Note: If you did not understand the above mentioned three points just know that id() simply provides the memory address of what is inside it.
+'''
+All the alphabet characters, numbers, and special characters are stored in the memory in the form of ASCII values.
+ASCII stands for American Standard Code for Information Interchange.
 
-'''ord():-
+ASCII values are the integer values which are assigned to the characters. For example, the ASCII value of 'A' is 65, 'B' is 66, 'a' is 97, 'b' is 98, '0' is 48, '1' is 49, etc.
+
+1. From 'A' to 'Z' the ASCII values are from 65 to 90.
+2. From 'a' to 'z' the ASCII values are from 97 to 122.
+
+
+ord():-
 ord() function returns the ASCII value of the character passed to it.'''
 print(ord('A')) # prints 65
 print(ord('a')) # prints 97
-print(ord(97)) # prints a
-print(ord(65)) # prints 65
+
+'''chr():-
+chr() function returns the character of the ASCII value passed to it.'''
+print(chr(97)) # prints a
+print(chr(65)) # prints A
 
 # 'end' parameter in print() functions:
 '''Simply put, it specifies what the string ends with:'''
