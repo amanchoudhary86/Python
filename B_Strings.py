@@ -29,6 +29,15 @@ However, you can create new strings based on existing ones.'''
 escaped_string = 'He said, "It\'s a beautiful day!"'
 print(escaped_string)
 
+# Example of escaping a backslash itself --> \\
+backslash_string = "This is a backslash: \\"
+print(backslash_string)
+
+# Example of a raw string:
+raw_string = r"This is a raw string with a backslash: C:\Desktop\Python\B_Strings.py "
+print(raw_string)
+# in order to make a rew string the user needs to put 'r' before the string
+
 '''Strings are commonly used for displaying messages, handling text input/output, and processing textual data.
 
 function : A function is a block of code which is used to perform some predefined or defined task
@@ -117,11 +126,6 @@ print("str.capitalize()--> ", str.capitalize())
 
 # Capitalizes the first character of each word in the string.
 print("str.title()--> ", str.title())
-
-# Example of capitalizing a specific character in the string using slicing.
-index = 10  # example index
-new_str = str[:index] + str[index].upper() + str[index+1:]
-print("Capitalizes character at index 10--> ", new_str)
 
 # Counts the number of occurrences of the substring "a" in the string.
 print('str.count("a")--> ', str.count("a"))
