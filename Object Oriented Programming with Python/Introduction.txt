@@ -4,3 +4,6 @@ There are generally two types of programming:
 1. Procedural Programming: This is the type of programming you have been doing so far. It is based on the concept of procedures or functions that perform certain tasks. The program flow is determined by the sequence of procedures or functions that are called. In simpler terms we break the code into a set of functions and these functions call each other.
 
 2. Object Oriented Programming (OOP): This is a programming paradigm that revolves around the concept of objects and classes. It is based on the idea of encapsulation, inheritance, and polymorphism. In this section, we will learn about the basics of OOP and how to apply it to make your programs more efficient.
+
+
+Work in Progress...
