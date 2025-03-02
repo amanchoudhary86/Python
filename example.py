@@ -6,7 +6,7 @@ def simple_function():
     print("Hello World")
 
 if __name__ == "__main__":
-    simple_function
+    simple_function()
 
     '''Everything in this if-statement executes only if the programmer wants to execute it in the M_Modules_2 file. Thanks to it the function simple_function will not run just by importing example.py'''
 
