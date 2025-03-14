@@ -1,13 +1,17 @@
 # Note : Do read the Introduction to know the definition of a class
 
 # This is how a class is defined:
-
 class Car:
-    def __init__(self, model, year, color, for_sale):
+    def __init__(self, model, year, color, for_sale): #(Constructor)
         self.model = model
         self.year = year
         self.color = color
         self.for_sale = for_sale
+        y = 10
+
+    x = 5
+
+'''class variables : Class variables are shared across all instances(objects) of that particular class and they are defined outside of the cunstructor. For Example x is a class variable whereas y is an instance variable'''
 
     def start(self):
         print(f"You start the {self.model} ")
