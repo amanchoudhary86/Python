@@ -9,6 +9,12 @@ class Car:
         self.color = color
         self.for_sale = for_sale
 
+    def start(self):
+        print(f"You start the {self.model} ")
+
+    def stop(self):
+        print(f"You stop the {self.model} ")
+
 car1 = Car("Lamborghini", 2025, "Yellow", False)
 print(car1.model)
 print(car1.year)
@@ -22,3 +28,6 @@ print(car2.model)
 print(car3.year)
 print(car3.color)
 print(car3.for_sale)
+
+car1.start()
+car1.stop()
