@@ -2,16 +2,16 @@
 
 # This is how a class is defined:
 class Car:
-    def __init__(self, model, year, color, for_sale): #(Constructor)
+    def __init__(self, model, year, color, for_sale):  # (Constructor)
         self.model = model
         self.year = year
         self.color = color
         self.for_sale = for_sale
-        y = 10
+        y = 10  # This is a local variable, not an instance variable
 
-    x = 5
+    x = 5  # Class variable
 
-'''class variables : Class variables are shared across all instances(objects) of that particular class and they are defined outside of the cunstructor. For Example x is a class variable whereas y is an instance variable'''
+    '''Class variables : Class variables are shared across all instances(objects) of that particular class and they are defined outside of the constructor. For Example, x is a class variable whereas y is an instance variable.'''
 
     def start(self):
         print(f"You start the {self.model} ")
@@ -19,6 +19,7 @@ class Car:
     def stop(self):
         print(f"You stop the {self.model} ")
 
+# Creating instances of the Car class
 car1 = Car("Lamborghini", 2025, "Yellow", False)
 print(car1.model)
 print(car1.year)
@@ -35,3 +36,6 @@ print(car3.for_sale)
 
 car1.start()
 car1.stop()
+car2.start()
+car2.stop()
+
