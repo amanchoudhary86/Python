@@ -39,3 +39,19 @@ car1.stop()
 car2.start()
 car2.stop()
 
+'''Following is the usage of a class variable:'''
+
+class Student():
+
+    class_year = 2025
+    number_of_students = 0
+
+    def __init__(self, Student_Name, age):
+        self.Student_Name = Student_Name
+        self.age = age
+        Student.number_of_students += 1
+
+student1 = Student("Tom", 15)
+student2 = Student("Greg",16)
+
+print("The no. of students enrolled:", Student.number_of_students)
