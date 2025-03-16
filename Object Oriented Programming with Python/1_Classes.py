@@ -43,7 +43,7 @@ car2.stop()
 
 '''Following is the usage of a class variable:'''
 
-class Student():
+class Student:
 
     class_year = 2025
     number_of_students = 0
@@ -62,3 +62,4 @@ print("The no. of students enrolled:", Student.number_of_students)
 
 Inheritance helps in code reusability and extinsibility
 '''
+
