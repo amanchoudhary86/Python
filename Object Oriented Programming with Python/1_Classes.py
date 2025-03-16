@@ -1,4 +1,6 @@
 # Note : Do read the Introduction to know the definition of a class
+from samba.netcmd.drs import cmd_drs_clone_dc_database
+
 
 # This is how a class is defined:
 class Car:
@@ -55,3 +57,5 @@ student1 = Student("Tom", 15)
 student2 = Student("Greg",16)
 
 print("The no. of students enrolled:", Student.number_of_students)
+
+'''Inheritance : '''
