@@ -58,4 +58,7 @@ student2 = Student("Greg",16)
 
 print("The no. of students enrolled:", Student.number_of_students)
 
-'''Inheritance : '''
+'''Inheritance : Inheritance is a property of a class to inherit attributes and methods from another class. The inherited class is generally known as the 'Parent Class' whereas the one which inherits the properties is called 'Child Class'.
+
+Inheritance helps in code reusability and extinsibility
+'''
