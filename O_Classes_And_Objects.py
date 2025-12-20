@@ -37,3 +37,28 @@ object_name = ClassName()
 
 
 '''
+
+# Example of a class and an object:
+# Class:-
+class Restaurant:
+    Name = "Italian"
+    location = "New York"
+    rating = 4.5
+    delivery = True
+
+# Object of class Restaurant
+print("Object's usage:")
+my_restaurant = Restaurant()
+print("Restaurant Name:", my_restaurant.Name)
+print("Location:", my_restaurant.location)
+print("Rating:", my_restaurant.rating)
+print("Delivery Available:", my_restaurant.delivery)
+
+# using a class and object we can also assign our own values to the attributes of the class like this:
+my_restaurant.Name = "Taj"
+print("Updated Restaurant Name:", my_restaurant.Name)
+
+print("\nCreating another object and using it:")
+your_restaurant = Restaurant()
+your_restaurant.location = "San Francisco"
+print("Your Restaurant Location:", your_restaurant.location)
