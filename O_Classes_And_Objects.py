@@ -6,3 +6,34 @@ There are generally two types of programming:
 2. Object Oriented Programming (OOP): This is a programming paradigm that revolves around the concept of objects and classes. It is based on the idea of encapsulation, inheritance, and polymorphism. In this section, we will learn about the basics of OOP and how to apply it to make your programs more efficient.
 '''
 
+'''
+What is a class?
+
+A class is a blueprint for creating objects. It is a way to group related data and functions together. A class can have attributes (data) and methods (functions) that operate on the data.
+
+Easy Explaination: It is like a bundle of variables and functions that are related to each other.
+
+Syntax of a class:
+
+class ClassName:
+    attributes
+    methods
+
+Note: Attributes are simply the variables defined inside a class
+Note: Methods are simply the functions that are defined inside a class
+    
+'''
+
+'''
+What is an object?
+
+An object is an instance of a class. It is created using the class blueprint. An object can have its own unique attributes and methods that are defined in the class.
+
+Easy Explaination: It is a way of using the attributes and methods of a class.
+
+Syntax of an object:
+
+object_name = ClassName()
+
+
+'''
