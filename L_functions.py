@@ -39,7 +39,7 @@ Suppose a programmer wants to print the sum of three variables, and wants to use
 Syntax:
 def function_name(arguments):
      code to be executed
-   return
+   return value
 
 
 Firstly we use the 'def' keyword to define a function.
