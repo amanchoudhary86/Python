@@ -51,3 +51,11 @@ This folder stores compiled versions of your Python files, which helps the progr
 
 Pro tip : There are tons of pre-built modules for python which are used by all the programmers. Database connection, folder creation, Digital Art making, making a web app, etc. there is a library(collection of many modules) for almost everything in Python. We will use them one by one in our upcoming programs.
 '''
+
+'''
+Note: Modules in python can also be imported with custom names by the user like this:
+import L_functions as lf
+
+so instead of using L_functions.function_name() we can use lf.function_name() in our code.
+
+'''
