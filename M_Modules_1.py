@@ -7,7 +7,19 @@ If we want to use the functions written in the previous file '12_Functions.py', 
 '''
 
 import L_functions
+
+#Or we can import a particular function from that module like this:
 from L_functions import addition
+'''
+In Python to import multiple modules we can do the following:
+Way 1:
+import module_1
+import module_2
+...and so on.
+
+Way 2:
+import module_1, module_2, module_3...and so on.
+'''
 
 '''
 Now we can use the functions ar any other part of code of that module in our file.
