@@ -59,3 +59,7 @@ import L_functions as lf
 so instead of using L_functions.function_name() we can use lf.function_name() in our code.
 
 '''
+
+# Module V/S Package:
+'''A module is a single python file that contains code, while a package is a collection of modules organized in a directory hierarchy. A package can contain multiple modules and sub-packages, allowing for better organization and modularity of code.
+'''
