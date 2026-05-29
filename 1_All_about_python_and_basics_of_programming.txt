@@ -1,4 +1,4 @@
- What is a Programming Language? 🤖
+What is a Programming Language? 🤖
 
 A programming language is a set of rules and instructions that a computer can understand and execute. It’s used to write code that a computer follows to perform specific tasks. Programming languages are essential for creating software, apps, and other digital products. 💻✨
 
