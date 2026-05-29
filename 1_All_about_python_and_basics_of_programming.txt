@@ -8,7 +8,7 @@ A programming language is simply a tool or medium to communicate with a computer
 
 ---
 
- What is a Compiler? 🛠️💾
+What is a Compiler? 🛠️💾
 
 When we want to communicate with a machine, we use a programming language. However, machines only understand 0s and 1s. A compiler is an intermediate tool that converts our code into byte code (0s and 1s) that the computer can understand. 
 
@@ -16,7 +16,7 @@ In simple terms, a compiler is a translator that converts the commands we give i
 
 ---
 
- What is an Interpreter? ⚙️🔄
+What is an Interpreter? ⚙️🔄
 
 An Interpreter is a program that converts code into 0s and 1s at the time of execution. Unlike a compiler, it doesn’t convert the entire code at once; instead, it processes the code line by line during execution. 📝🔄
 
@@ -24,7 +24,7 @@ Note: The compiler converts the whole file into byte code all at once, unlike th
 
 ---
 
- Python Programming Uses an Interpreter 🐍🖥️
+Python Programming Uses an Interpreter 🐍🖥️
 
 Python is one of the most widely used programming languages globally. It’s considered one of the easiest languages to learn because its syntax closely resembles the English language, making it popular in educational institutions. 📚🌍
 
@@ -32,7 +32,7 @@ Fun Fact: Python was released on February 20, 1991. 👉 This means it’s even 
 
 ---
 
- Reasons for Python's Popularity 🌟
+Reasons for Python's Popularity 🌟
 
 1. Easy to Learn: Python is considered one of the easiest programming languages to learn. 📖✨
 
